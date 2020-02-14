@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.dark-mode {
+  background-color: #6170fb;
+  color: #FFFFFF;
+}
+
+button {
+  border-radius: 25px;
+  font-size: 1.25rem;
+  margin-top: 10vh;
+  padding: 0.5rem;
+  border: none;
+  background-color: #6170fb;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: #061062;
+    text-transform: uppercase;
+}
