@@ -36,7 +36,7 @@ function App() {
         >
           View 2019 Awards
         </a>
-        <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
+        <button onClick={toggleDarkMode} data-testid="darkModeButton">Toggle Dark Mode</button>
       </header>
       <Players />
     </div>

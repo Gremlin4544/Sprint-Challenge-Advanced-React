@@ -23,7 +23,7 @@ class Players extends Component {
         } else {
             return(
                 <div>
-                    <h1>FIFA Womens World Cup Players</h1>
+                    <h1 data-testid="title">FIFA Womens World Cup Players</h1>
                     {this.state.players.map(player => <h3 key={player.id}>{player.name} from {player.country}</h3>)}
                 </div>
             )
